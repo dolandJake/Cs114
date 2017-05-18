@@ -20,6 +20,6 @@ def getanswer(answernumber):
     elif answernumber == 9:
         return "yeah probably not"
 
-r = random.randit(1.9)
+r = random.randint(1,9)
 fortune = getanswer(r)
 print(fortune)
