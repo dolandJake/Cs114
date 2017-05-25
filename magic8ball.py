@@ -1,4 +1,7 @@
 
+
+print("Ask any question. about the future.")
+life = input()
 import random
 def getanswer(answernumber):
     if answernumber == 1:
@@ -20,6 +23,7 @@ def getanswer(answernumber):
     elif answernumber == 9:
         return "yeah probably not"
 
-r = random.randint(1,9)
-fortune = getanswer(r)
+
+random_int = random.randint(1,9)
+fortune = getanswer(random_int)
 print(fortune)
